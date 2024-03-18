@@ -47,9 +47,9 @@ if(!news.length){
     <div>
      <div style={navStyle}>
       <Link to="/" style={linkStyle}>Home</Link>
-      <Link to="/Latest News" style={linkStyle}>Latest News</Link>
+      <Link to="/news" style={linkStyle}>Latest News</Link>
       <Link to="#" style={linkStyle}>Course</Link>
-      <Link to="/About" style={linkStyle}>About</Link>
+      <Link to="/about" style={linkStyle}>About</Link>
     </div>
     <div style={headlines}>
       <h2>Latest News Headlines</h2>
