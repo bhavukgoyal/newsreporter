@@ -7,12 +7,12 @@ import Home from './Home.js'
 const App = () => {
   return (
     <Router>
-      <Home/>
-    <Routes>
-      <Route path="Home" element={<Home />} />
-      <Route path="Latest News" element={<News />} />
       
-      <Route path="About" element={<About />} />
+    <Routes>
+      <Route path="newsreporter" element={<Home />} />
+      <Route path="newsreporter/Latest News" element={<News />} />
+      
+      <Route path="newsreporter/About" element={<About />} />
     </Routes>
   </Router>
   );

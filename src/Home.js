@@ -49,7 +49,7 @@ const Home=()=>{
     return(<>
     <div style={navStyle}>
       <Link to="newsreporter" style={linkStyle}>Home</Link>
-      <Link to="newsreporter/Latest News" style={linkStyle}>Latest News</Link>
+      <Link to="/" style={linkStyle}>Latest News</Link>
       <Link to="#" style={linkStyle}>Course</Link>
       <Link to="newsreporter/About" style={linkStyle}>About</Link>
     </div>
