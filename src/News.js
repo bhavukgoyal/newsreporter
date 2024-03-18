@@ -36,8 +36,8 @@ const linkStyle = {
   }, []);
 if(!news.length){
     return (<><div style={navStyle}>
-        <Link to="/" style={linkStyle}>Home</Link>
-        <Link to="/Latest News" style={linkStyle}>Latest News</Link>
+        <Link to="/Home" style={linkStyle}>Home</Link>
+        <Link to="" style={linkStyle}>Latest News</Link>
         <Link to="/Course" style={linkStyle}>Course</Link>
         <Link to="/About" style={linkStyle}>About</Link>
       </div>
