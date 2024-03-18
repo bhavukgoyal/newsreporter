@@ -5,7 +5,8 @@ import About from './About.js'
 import Home from './Home.js'
 
 const App = () => {
-  return (
+  return (<>
+  <Home/>
     <Router>
     <Routes>
       <Route path="/" element={<Home />} />
@@ -13,7 +14,7 @@ const App = () => {
       
       <Route path="/About" element={<About />} />
     </Routes>
-  </Router>
+  </Router></>
   );
 }
 
