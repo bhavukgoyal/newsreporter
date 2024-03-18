@@ -34,8 +34,8 @@ const About = () => {
 return (<div>
 
 <div style={navStyle}>
-      <Link to="/Home" style={linkStyle}>Home</Link>
-      <Link to="/Latest News" style={linkStyle}>Latest News</Link>
+      <Link to="Home" style={linkStyle}>Home</Link>
+      <Link to="Latest News" style={linkStyle}>Latest News</Link>
       <Link to="#" style={linkStyle}>Course</Link>
       <Link to="" style={linkStyle}>About</Link>
     </div>

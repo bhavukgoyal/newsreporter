@@ -36,10 +36,10 @@ const linkStyle = {
   }, []);
 if(!news.length){
     return (<><div style={navStyle}>
-        <Link to="/Home" style={linkStyle}>Home</Link>
+        <Link to="Home" style={linkStyle}>Home</Link>
         <Link to="" style={linkStyle}>Latest News</Link>
-        <Link to="/Course" style={linkStyle}>Course</Link>
-        <Link to="/About" style={linkStyle}>About</Link>
+        <Link to="#" style={linkStyle}>Course</Link>
+        <Link to="About" style={linkStyle}>About</Link>
       </div>
     <h1 style={{padding:'20px'}}>Loading...</h1></>)
 }
