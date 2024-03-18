@@ -48,10 +48,10 @@ const Home=()=>{
 
     return(<>
     <div style={navStyle}>
-      <Link to="" style={linkStyle}>Home</Link>
-      <Link to="Latest News" style={linkStyle}>Latest News</Link>
+      <Link to="newsreporter" style={linkStyle}>Home</Link>
+      <Link to="newsreporter/Latest News" style={linkStyle}>Latest News</Link>
       <Link to="#" style={linkStyle}>Course</Link>
-      <Link to="About" style={linkStyle}>About</Link>
+      <Link to="newsreporter/About" style={linkStyle}>About</Link>
     </div>
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative',marginTop:'1px' }}>
     <div style={{ position: 'absolute', zIndex: 1,color:'white',fontWeight:'1000',fontSize:'50px' }}>{displayedWord}</div>

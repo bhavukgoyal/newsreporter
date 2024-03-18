@@ -34,10 +34,10 @@ const About = () => {
 return (<div>
 
 <div style={navStyle}>
-      <Link to="Home" style={linkStyle}>Home</Link>
-      <Link to="Latest News" style={linkStyle}>Latest News</Link>
+      <Link to="newsreporter/Home" style={linkStyle}>Home</Link>
+      <Link to="newsreporter/Latest News" style={linkStyle}>Latest News</Link>
       <Link to="#" style={linkStyle}>Course</Link>
-      <Link to="" style={linkStyle}>About</Link>
+      <Link to="newsreporter" style={linkStyle}>About</Link>
     </div>
  <div style={content}>   
 <h1 style={{color:'white'}}>Arun Kumar</h1>
