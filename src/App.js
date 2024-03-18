@@ -7,6 +7,7 @@ import Home from './Home.js'
 const App = () => {
   return (
     <Router>
+      <Home/>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/news" element={<News />} />
