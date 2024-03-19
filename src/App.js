@@ -6,15 +6,13 @@ import Home from './Home.js'
 
 const App = () => {
   return (
-    <Router>
-      <Home/>
-    <Routes>
-      <Route path="newsreporter/home" element={<Home />} />
-      <Route path="newsreporter/latest-news" element={<News />} />
-      
-      <Route path="newsreporter/about" element={<About />} />
-    </Routes>
-  </Router>
+    <Router basename="/newsreporter">
+  <Routes>
+    <Route path="/home" element={<Home />} />
+    <Route path="/latest-news" element={<News />} />
+    <Route path="/about" element={<About />} />
+  </Routes>
+</Router>
   );
 }
 
