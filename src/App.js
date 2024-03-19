@@ -5,16 +5,16 @@ import About from './About.js'
 import Home from './Home.js'
 
 const App = () => {
-  return (<><Home/>
+  return (
     <Router>
-      
+      <Home/>
     <Routes>
       <Route path="newsreporter/home" element={<Home />} />
       <Route path="newsreporter/latest-news" element={<News />} />
       
       <Route path="newsreporter/about" element={<About />} />
     </Routes>
-  </Router></>
+  </Router>
   );
 }
 
