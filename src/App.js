@@ -5,7 +5,7 @@ import About from './About.js'
 import Home from './Home.js'
 
 const App = () => {
-  return (
+  return (<><Home/>
     <Router>
       
     <Routes>
@@ -14,7 +14,7 @@ const App = () => {
       
       <Route path="newsreporter/about" element={<About />} />
     </Routes>
-  </Router>
+  </Router></>
   );
 }
 
