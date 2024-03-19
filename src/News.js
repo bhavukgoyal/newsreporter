@@ -35,8 +35,8 @@ const linkStyle = {
     fetchNews();
   }, []);
 if(!news.length){
-    return (<>
-    <h1 style={{padding:'20px'}}>Loading...</h1></>)
+    return (
+    <h1 style={{padding:'20px'}}>Loading...</h1>)
 }
   return (
     <div>
