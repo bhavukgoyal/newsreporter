@@ -7,6 +7,7 @@ import Home from './Home.js'
 const App = () => {
   return (
     <Router basename="/newsreporter">
+      <Home/>
   <Routes>
     <Route path="/home" element={<Home />} />
     <Route path="/latest-news" element={<News />} />
