@@ -35,17 +35,12 @@ const linkStyle = {
     fetchNews();
   }, []);
 if(!news.length){
-    return (<><div style={navStyle}>
-        <Link to="/home" style={linkStyle}>Home</Link>
-        <Link to="/latest-news" style={linkStyle}>Latest News</Link>
-        <Link to="#" style={linkStyle}>Course</Link>
-        <Link to="/about" style={linkStyle}>About</Link>
-      </div>
+    return (<>
     <h1 style={{padding:'20px'}}>Loading...</h1></>)
 }
   return (
     <div>
-     
+   
     <div style={headlines}>
       <h2>Latest News Headlines</h2>
       <ul>

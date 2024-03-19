@@ -20,13 +20,13 @@ const App = () => {
   return (
     <Router basename="/newsreporter">
     <div style={navStyle}>
-    <Link to="/home" style={linkStyle}>Home</Link>
+    <Link to="/" style={linkStyle}>Home</Link>
     <Link to="/latest-news" style={linkStyle}>Latest News</Link>
     <Link to="#" style={linkStyle}>Course</Link>
     <Link to="/about" style={linkStyle}>About</Link>
   </div>
   <Routes>
-    <Route path="/home" element={<Home />} />
+    <Route path="/" element={<Home />} />
     <Route path="/latest-news" element={<News />} />
     <Route path="/about" element={<About />} />
   </Routes>
