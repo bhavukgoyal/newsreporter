@@ -47,12 +47,7 @@ const Home=()=>{
       };
 
     return(<>
-    <div style={navStyle}>
-      <Link to="/home" style={linkStyle}>Home</Link>
-      <Link to="/latest-news" style={linkStyle}>Latest News</Link>
-      <Link to="#" style={linkStyle}>Course</Link>
-      <Link to="/about" style={linkStyle}>About</Link>
-    </div>
+    
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative',marginTop:'1px' }}>
     <div style={{ position: 'absolute', zIndex: 1,color:'white',fontWeight:'1000',fontSize:'50px' }}>{displayedWord}</div>
     <img src={Bgimage} alt="" style={{ height: '100vh', width: '100%', objectFit: 'cover',opacity:'0.7' }} />

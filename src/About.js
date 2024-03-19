@@ -33,12 +33,7 @@ const About = () => {
       }
 return (<div>
 
-<div style={navStyle}>
-      <Link to="/home" style={linkStyle}>Home</Link>
-      <Link to="/latest-news" style={linkStyle}>Latest News</Link>
-      <Link to="#" style={linkStyle}>Course</Link>
-      <Link to="/about" style={linkStyle}>About</Link>
-    </div>
+
  <div style={content}>   
 <h1 style={{color:'white'}}>Arun Kumar</h1>
 <p style={incontent}>I have served in the news industry for 30 years.</p>
