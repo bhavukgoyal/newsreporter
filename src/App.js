@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import News from './News.js';
 import About from './About.js'
 import Home from './Home.js'
+import {Link} from 'react-router-dom';
 
 const App = () => {
 
